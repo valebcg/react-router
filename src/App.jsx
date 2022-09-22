@@ -4,10 +4,13 @@ import Home from "./views/Home";
 import Contacto from "./views/Contacto";
 import NotFound from "./views/NotFound";
 import Navbar from "./components/Navbar";
+
+
 function App() { 
 return (
+  <>
 <div className="App"> 
-     <BrowserRouter> 
+ <BrowserRouter> 
        <Navbar />
        <Routes>
          <Route path="/home" element={<Home />} /> 
@@ -15,7 +18,8 @@ return (
          <Route path="*" element={<NotFound />} />
        </Routes>
   </BrowserRouter> 
-   </div>
+</div>
+   </>
  ); 
 }
 export default App;

@@ -95,7 +95,9 @@ font-weight: lighter;  }
 
 
   nav{
-    font-size: 1.5rem;
+    font-size: 18px;
+    background-color: rgb(235, 8, 167);
+  
   }
 
 
@@ -105,7 +107,8 @@ font-weight: lighter;  }
   }
 
 
- nav{
-background-color: rgb(240, 104, 204);
-color: black;
+.logo{
+  font-size: rem;
+  font-weight: bold;
+  
  }
