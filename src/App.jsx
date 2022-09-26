@@ -13,7 +13,7 @@ return (
  <BrowserRouter> 
        <Navbar />
        <Routes>
-         <Route path="/home" element={<Home />} /> 
+         <Route path="/" element={<Home />} /> 
          <Route path="/contacto" element={<Contacto />} /> 
          <Route path="*" element={<NotFound />} />
        </Routes>

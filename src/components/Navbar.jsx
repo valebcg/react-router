@@ -6,7 +6,7 @@ export default function Navigation() {
     <>
       <Navbar className=" p-3 text-dark">
        
-          <Link to="/home" className="text-white  text-decoration-none">
+          <Link to="/" className="text-white  text-decoration-none">
             🏠Home
           </Link>
           <Link to="/contacto" className="text-white ms-3 text-decoration-none">
